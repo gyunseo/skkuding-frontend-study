@@ -9,22 +9,23 @@
     <title>맛집 CRUD Front</title>
   </head>
   <body>
-    <label for="input-name">맛집 이름:</label><br />
-    <input type="text" id="input-name" /><br />
-    <label for="req-body-data">Req Body Data:</label><br />
-    <textarea
-      name="req-body-data"
-      id="req-body-data"
-      cols="30"
-      rows="10"
-    ></textarea
-    ><br />
-    <button id="create-req-btn" class="btn">CREATE</button><br />
-    <button id="read-all-req-btn" class="btn">READ ALL</button><br />
-    <button id="read-req-btn" class="btn">READ</button><br />
-    <button id="put-req-btn" class="btn">PUT</button><br />
-    <button id="patch-req-btn" class="btn">PATCH</button><br />
-    <button id="delete-req-btn" class="btn">DELETE</button><br />
+    <div id="crud">
+      <label for="input-name">맛집 이름:</label>
+      <input type="text" id="input-name" />
+      <label for="req-body-data">Req Body Data:</label>
+      <textarea
+        name="req-body-data"
+        id="req-body-data"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <button id="create-req-btn" class="btn">CREATE</button>
+      <button id="read-all-req-btn" class="btn">READ ALL</button>
+      <button id="read-req-btn" class="btn">READ</button>
+      <button id="put-req-btn" class="btn">PUT</button>
+      <button id="patch-req-btn" class="btn">PATCH</button>
+      <button id="delete-req-btn" class="btn">DELETE</button>
+    </div>
     <div id="content"></div>
   </body>
 </html>
