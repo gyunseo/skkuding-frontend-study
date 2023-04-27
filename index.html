@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./dist/index.js"></script>
+    <title>맛집 CRUD Front</title>
+  </head>
+  <body>
+    <label for="input-name">맛집 이름:</label><br />
+    <input type="text" id="input-name" /><br />
+    <label for="req-body-data">Req Body Data:</label><br />
+    <textarea
+      name="req-body-data"
+      id="req-body-data"
+      cols="30"
+      rows="10"
+    ></textarea
+    ><br />
+    <button id="create-req-btn" class="btn">CREATE</button><br />
+    <button id="read-all-req-btn" class="btn">READ ALL</button><br />
+    <button id="read-req-btn" class="btn">READ</button><br />
+    <button id="put-req-btn" class="btn">PUT</button><br />
+    <button id="patch-req-btn" class="btn">PATCH</button><br />
+    <button id="delete-req-btn" class="btn">DELETE</button><br />
+    <div id="content"></div>
+  </body>
+</html>
